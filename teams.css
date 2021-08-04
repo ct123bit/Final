@@ -75,6 +75,10 @@ nav {
     display: none;
   }
   
+.Word{
+
+  color: #01937c;
+}
 .team-section .section-title
 {
     flex-basis: 100%;
@@ -85,6 +89,7 @@ nav {
     font-size: 40px;
     text-align: center;
     margin: 0;
+    padding-top: 20px; ;
     font-weight: 700;
 }
 .team-section .section-title p{

@@ -210,7 +210,8 @@ nav .fa {
 }
 .cta {
   margin: auto;
-  width: 80%;
+  width: 70%;
+  height:40%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(images/banner2.jpg);
   background-position: center;
