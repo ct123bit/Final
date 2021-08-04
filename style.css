@@ -195,7 +195,7 @@ nav .fa {
   padding-bottom: 100px;
 }
 .content {
-  padding: 0 225px 0 0; /* 75px being the width of the thumbnail + how much space you want to put between it and your text */
+  padding: 0 150px 0 0; /* 75px being the width of the thumbnail + how much space you want to put between it and your text */
   position: relative; /* So the thumbnail is relative to this */
 }
 
@@ -203,6 +203,7 @@ nav .fa {
   right: 0;
   position: absolute;
   top: 0;
+  
 }
 
 .ctab {
@@ -226,7 +227,7 @@ nav .fa {
   padding: 0;
   font-size: 30px;
 }
-.content .hp1{
+.content .hp2{
   display: none;
 }
 @media (max-width: 700px) {
@@ -309,14 +310,14 @@ nav .fa {
     display: block;
     margin: 0 0 0 0;
   }
-  .content .hp2{
+  .content .hp1{
     display: none;
   }
-  .content .hp1{
-    display: inline-block;
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
+  .content .hp2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
   }
 }
 .social-links {
