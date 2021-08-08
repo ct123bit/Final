@@ -12,6 +12,11 @@
   background-size: cover;
   position: relative;
 }
+.video{
+  margin-top: 10px;
+  width: 400px;
+  height: 200px;
+}
 nav {
   display: flex;
   padding: 0.5% 4%;
@@ -302,6 +307,11 @@ nav .fa {
   .cta h1 {
     font-size: 20px;
   }
+  .video{
+    margin-top: 8px;
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -319,6 +329,7 @@ nav .fa {
     margin-right: auto;
     align-items: center;
   }
+
 }
 .social-links {
   padding-top: 15px;
