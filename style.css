@@ -309,9 +309,9 @@ nav .fa {
     font-size: 20px;
   }
   .video{
-    margin-top: 8px;
     width: 300px;
     height: 200px;
+    margin:auto;
   }
 }
 
